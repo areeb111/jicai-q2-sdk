@@ -7,9 +7,9 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import java.io.BufferedOutputStream;
@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Random;
 
-import android.support.v7.widget.LinearLayoutCompat;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import android.view.WindowManager;
 
 import com.google.android.gms.appindexing.Action;

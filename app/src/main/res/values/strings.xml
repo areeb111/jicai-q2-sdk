@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PrinterTestDemo</string>
+    <string name="app_name">PrinterTestDemo - AndroidX</string>
     <string name="print_display">Display Mode</string>
     <string name="print_text">Print Text</string>
     <string name="print_english">Print English</string>
